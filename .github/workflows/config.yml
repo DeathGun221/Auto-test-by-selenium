@@ -23,7 +23,7 @@ jobs:
           sudo docker-compose run regression /bin/sh -c 'allure generate allure-results --clean -o allure-report'
 
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-actions@4.1.5
+        uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
           tocken: ${{ secrets.CI_TOKEN }}
           branch: gh-pages
