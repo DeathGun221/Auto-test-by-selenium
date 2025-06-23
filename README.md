@@ -23,10 +23,10 @@ cd Auto-test-by-selenium
 pip install -r requirements.txt
 
 4. Running Tests Locally
-Simply run:
+-Simply run:
 
 pytest
 
-5. Running Tests Using Docker
+-Running Tests Using Docker:
 
 docker-compose up --build
